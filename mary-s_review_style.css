@@ -14,7 +14,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
 }
 
@@ -23,17 +23,32 @@ h1{
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Times New Roman', Times, serif;
     text-decoration: underline;
     font-size: large;
 }
 
-.currentlywatching{
+.currentlywatching ul{
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
     border: 5px gold solid;
     padding: 5px;
     font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 206, 206);
+}
+
+.retroreview {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* FOOTER */
+.class8 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
