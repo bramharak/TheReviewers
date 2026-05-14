@@ -1,0 +1,58 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white; /* IMPORTANT: keeps browser normal */
+}
+
+.intro {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.class1 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.class2 a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+/* HERO */
+.class3 {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+/* FLEX ROW */
+.spiderman {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* BOXES */
+.class4 {
+  background-color: lightgray;
+  flex: 1;
+  min-width: 150px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FOOTER */
+.class8 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
