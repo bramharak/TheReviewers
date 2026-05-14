@@ -1,5 +1,13 @@
-head{
-
+/* HEADER */
+.class1 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.class2 a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
 }
 
 h1{
@@ -7,7 +15,6 @@ h1{
     align-items: center;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: solid 5px rgb(240, 151, 151);
     padding: 10px;
 }
 
