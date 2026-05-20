@@ -4,10 +4,15 @@
   color: white;
   padding: 20px;
 }
+
 .class2 a {
   color: white;
   margin-right: 15px;
   text-decoration: none;
+}
+
+body{
+    margin: 5px;
 }
 
 h1{
@@ -16,6 +21,7 @@ h1{
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
+    font-size: x-large;
 }
 
 .opening-sentence{
@@ -23,13 +29,28 @@ h1{
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    font-family:'Times New Roman', Times, serif;
     text-decoration: underline;
-    font-size: large;
+    background-color: gray;
+    color: white;
+    padding: 20px;
 }
 
-body{
-    margin: 5px;
+.container>div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.container img{
+    border: 4px pink solid;
+    margin: 2px;
+    padding: 2px;
+}
+
+.container p{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
 }
 
 .currentlywatching ul{
