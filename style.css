@@ -1,8 +1,8 @@
-/* RESET */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: white; /* IMPORTANT: keeps browser normal */
+  background-color: white; 
 }
 
 /* HEADER */
@@ -45,19 +45,38 @@ body {
 /* FLEX ROW */
 .class6 {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   flex-wrap: wrap;
+  align-items: stretch;
 }
-
 /* BOXES */
 .class7 {
   background-color: lightgray;
   flex: 1;
-  min-width: 150px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-width: 200px;
+  padding: 15px;
+  text-align: center;
+}
+
+.class7 img {
+  width: 100%;
+}
+  .class7 img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.class7 iframe {
+  width: 100%;
+  height: 200px;
+
+}
+
+.class7 img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
 }
 
 /* FOOTER */
