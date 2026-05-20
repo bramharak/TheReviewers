@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: white; /* IMPORTANT: keeps browser normal */
+  background-color: white; /
 }
 
 .intro {
@@ -23,7 +23,7 @@ body {
   text-decoration: none;
 }
 
-/* HERO */
+
 .class3 {
   background-color: gray;
   color: white;
