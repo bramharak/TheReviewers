@@ -44,6 +44,7 @@ h1{
     border: 4px pink solid;
     margin: 2px;
     padding: 2px;
+    align-items: flex-start;
 }
 
 .container p{
@@ -65,10 +66,29 @@ h1{
     background-color: rgb(207, 206, 206);
 }
 
+.hottakes {
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 5px rgb(251, 101, 101) solid;
+    padding: 5px;
+    margin: 5px;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 206, 206);
+}
+
 .retroreview {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.retroreview>img{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .thronesimage{
@@ -79,6 +99,17 @@ h1{
     margin: 3px;
     padding: 2px;
     width: 200px;
+}
+
+.footimage{
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 5px navy solid;
+    width: 300px;
+    padding: auto;
+    margin: auto;
 }
 
 /* FOOTER */
