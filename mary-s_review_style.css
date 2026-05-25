@@ -35,10 +35,9 @@ h1{
     padding: 20px;
 }
 
-.container>div{
-    display: flex;
-    align-items: flex-start;
-    justify-content: left;
+.container div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .container img{
