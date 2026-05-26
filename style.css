@@ -6,10 +6,27 @@ body {
 }
 
 /* HEADER */
+
+.class1 img {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.class1 {
+  text-align: center;
+}
 .class1 {
   background-color: black;
   color: white;
   padding: 20px;
+}
+
+.class1 h1 {
+  font-size: 36px;
+}
+
+.class2 a {
+  font-size: 18px;
 }
 
 .class2 a {
@@ -26,17 +43,38 @@ body {
   padding: 40px;
 }
 
+.class3 {
+  background-image: url("/TheReviewers/image/popcorn5.jpg");
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* 
+.class3 {
+  background-image: url(/TheReviewers/image/popcorn5.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+
+  color: white;
+  text-align: center;
+  padding: 60px;
+} */
+
 /* MAIN (ONLY THIS IS YELLOW) */
 .class4 {
   width: 90%;
   margin: 20px auto;
-  background-color: yellow;
+  background-color: rgb(192, 192, 151);
   padding: 20px;
 }
 
 /* SECTIONS */
 .class5 {
-  background-color: white;
+  background-color: rgb(228, 234, 75);
   margin-bottom: 20px;
   padding: 20px;
   border: 2px dashed black;
@@ -51,11 +89,18 @@ body {
 }
 /* BOXES */
 .class7 {
-  background-color: lightgray;
+  background-color: rgb(207, 202, 202);
   flex: 1;
   min-width: 200px;
   padding: 15px;
   text-align: center;
+}
+
+
+
+.class7 iframe {
+  width: 100%;
+  height: 200px;
 }
 
 .class7 img {

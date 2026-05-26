@@ -3,57 +3,60 @@
   background-color: black;
   color: white;
   padding: 20px;
+  text-align: center;
+}
+
+.class1 h1 {
+  font-size: 36px;
 }
 
 .class2 a {
   color: white;
   margin-right: 15px;
   text-decoration: none;
+  font-size: 18px;
 }
 
-body{
+/* TOP SECTION */
+.class3 {
+  background-image: url("/TheReviewers/image/popcorn5.jpg");
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* BODY */
+body {
     margin: 5px;
+    font-family: Arial, sans-serif;
 }
 
-h1{
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 10px;
-    font-size: x-large;
-}
-
-.opening-sentence{
-    text-align: center;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    text-decoration: underline;
-    background-color: gray;
-    color: white;
-    padding: 20px;
-}
-
-.container div{
+/* CONTAINER */
+.container div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.container img{
+/* IMAGES */
+.container img {
     border: 4px pink solid;
     margin: 2px;
     padding: 2px;
     align-items: flex-start;
 }
 
-.container p{
+/* PARAGRAPHS */
+.container p {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
 }
 
-.currentlywatching ul{
+/* CURRENTLY WATCHING */
+.currentlywatching ul {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -62,10 +65,11 @@ h1{
     padding: 5px;
     margin: 10px;
     font-size: medium;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(207, 206, 206);
 }
 
+/* HOT TAKES */
 .hottakes {
     justify-content: flex-start;
     align-items: flex-start;
@@ -75,23 +79,25 @@ h1{
     padding: 5px;
     margin: 5px;
     font-size: medium;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(207, 206, 206);
 }
 
+/* RETRO REVIEW */
 .retroreview {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
-.retroreview>img{
+.retroreview > img {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.thronesimage{
+/* THRONES IMAGE */
+.thronesimage {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -101,7 +107,8 @@ h1{
     width: 200px;
 }
 
-.footimage{
+/* FOOT IMAGE */
+.footimage {
     justify-content: flex-start;
     align-items: flex-start;
     text-align: center;
