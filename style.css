@@ -1,70 +1,67 @@
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: white; 
+  background-color: white;
 }
 
 /* HEADER */
+
+.class1 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
 .class1 img {
   width: 40px;
   vertical-align: middle;
 }
 
-.class1 {
-  text-align: center;
-}
-.class1 {
-  background-color: black;
-  color: white;
-  padding: 20px;
-}
-
 .class1 h1 {
-  font-size: 36px;
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: rgb(181, 133, 14);
 }
 
-.class2 a {
-  font-size: 18px;
-}
+/* NAVIGATION */
 
 .class2 a {
   color: white;
-  margin-right: 15px;
+  margin-right: 20px;
   text-decoration: none;
+  font-size: 20px;
+}
+
+.class2 a:hover {
+  text-decoration: underline;
 }
 
 /* HERO */
-.class3 {
-  background-color: gray;
-  color: white;
-  text-align: center;
-  padding: 40px;
-}
 
 .class3 {
   background-image: url("/TheReviewers/image/popcorn5.jpg");
   background-size: cover;
   background-position: center;
-
   color: white;
   text-align: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 
-/* 
-.class3 {
-  background-image: url(/TheReviewers/image/popcorn5.jpg);
-  background-size: 100% 100%;
-  background-position: center;
+.class3 h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
 
-  color: white;
-  text-align: center;
-  padding: 60px;
-} */
+.class3 p {
+  font-size: 22px;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.5;
+}
 
-/* MAIN (ONLY THIS IS YELLOW) */
+/* MAIN CONTENT */
+
 .class4 {
   width: 90%;
   margin: 20px auto;
@@ -73,6 +70,7 @@ body {
 }
 
 /* SECTIONS */
+
 .class5 {
   background-color: rgb(228, 234, 75);
   margin-bottom: 20px;
@@ -81,13 +79,16 @@ body {
 }
 
 /* FLEX ROW */
+
 .class6 {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
   align-items: stretch;
 }
-/* BOXES */
+
+/* CONTENT BOXES */
+
 .class7 {
   background-color: rgb(207, 202, 202);
   flex: 1;
@@ -96,35 +97,25 @@ body {
   text-align: center;
 }
 
-
-
-.class7 iframe {
-  width: 100%;
-  height: 200px;
-}
-
-.class7 img {
-  width: 100%;
-}
-  .class7 img {
-  width: 100%;
-  margin-top: 10px;
-}
-
-.class7 iframe {
-  width: 100%;
-  height: 200px;
-
-}
+/* IMAGES */
 
 .class7 img {
   width: 200px;
   height: auto;
   display: block;
   margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* VIDEOS */
+
+.class7 iframe {
+  width: 100%;
+  height: 200px;
 }
 
 /* FOOTER */
+
 .class8 {
   background-color: black;
   color: white;
